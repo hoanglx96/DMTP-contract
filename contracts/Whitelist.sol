@@ -112,3 +112,4 @@ contract Whitelist is Ownable {
         _token.transfer(msg.sender, _token.balanceOf(address(this)));
     }
 }
+ 
